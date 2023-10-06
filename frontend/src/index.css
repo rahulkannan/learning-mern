@@ -151,6 +151,12 @@ h3 {
   justify-content: center;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
 .btn svg {
   margin-right: 8px;
 }
@@ -191,6 +197,10 @@ h3 {
   animation: spin 1.2s linear infinite;
 }
 
+.events-container {
+  display: flex;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -201,9 +211,7 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  .form {
-    width: 90%;
-  }
+
 
   .heading h1 {
     font-size: 2rem;
